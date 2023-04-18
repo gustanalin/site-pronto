@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    
+Body{
+    font-family: 'Playfair Display', serif;
+}
+
+.cabecalho {
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 20%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 40px 16px;
+    font-size: 24px;
+}
+
+.produtos-imagem{
+    width: 300px;
+}
+
+.produtos-div{
+    text-align: center;
+}
+
+.produtos-título{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.produtos-todos{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.rodapé{
+    background: #000000;
+    text-align: center;
+}
+
+.rodapé-imagem{
+    height: 100px;
+    padding: 12px 0;
+}
